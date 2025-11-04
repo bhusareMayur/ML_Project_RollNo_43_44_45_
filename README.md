@@ -61,19 +61,19 @@ The model analyzes these three key metrics and provides an instant prediction wi
 ## 📸 Screenshots
 
 ### 🏠 Home Interface
-![Home Interface](screenshots/home_interface.png)
+![Home Interface](screenshots/home_interface.jpg)
 *Main prediction interface with input fields for study hours, attendance, and previous score*
 
 ### ✅ Pass Prediction
-![Pass Prediction](screenshots/pass_prediction.png)
+![Pass Prediction](screenshots/pass_prediction.jpg)
 *Example of a successful pass prediction with high confidence score*
 
 ### ❌ Fail Prediction
-![Fail Prediction](screenshots/fail_prediction.png)
+![Fail Prediction](screenshots/fail_prediction.jpg)
 *Example of a fail prediction with confidence percentage*
 
 ### 📊 Model Training Output
-![Model Training](screenshots/model_training.png)
+![Model Training](screenshots/model_training.jpg)
 *Training completion message showing model saved successfully*
 
 > **Note:** Create a `screenshots/` folder in your project root and add your application screenshots with the names shown above.
@@ -172,7 +172,7 @@ ML_Project_RollNo_43_44_45_/
 
 - Python 3.8 or higher
 - pip package manager
-- Git (for cloning the repository)
+- Git 
 
 ### Step-by-Step Installation
 
@@ -355,111 +355,3 @@ The model learns patterns like:
 - Weighs each feature's importance automatically
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-### How to Contribute
-
-1. **Fork** the repository
-2. **Create** a feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Commit** your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. **Push** to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. **Open** a Pull Request
-
-### Ideas for Enhancement
-
-- 🎨 **UI Improvements**: Add charts, graphs, or animations
-- 📊 **Data Visualization**: Display feature importance
-- 🤖 **Advanced Models**: Try Random Forest, SVM, or Neural Networks
-- 📈 **Model Metrics**: Add accuracy, precision, recall display
-- 💾 **Database Integration**: Store predictions history
-- 📱 **Responsive Design**: Mobile-friendly interface
-- 🌐 **Deployment**: Deploy on Streamlit Cloud or Heroku
-- 📝 **Logging**: Add prediction history tracking
-- 🔔 **Alerts**: Email notifications for at-risk students
-- 📚 **Documentation**: API documentation, video tutorials
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👥 Team Members
-
-**Roll Numbers:** 43, 44, 45
-
-### Project Lead
-- [@bhusareMayur](https://github.com/bhusareMayur) - GitHub Repository Owner
-
-### Development Team
-- **Roll No. 43** - Model Development & Training
-- **Roll No. 44** - Web Application & UI Design
-- **Roll No. 45** - Data Collection & Documentation
-
----
-
-## 🎯 Project Goals
-
-- ✅ Build a functional ML prediction system
-- ✅ Create an intuitive web interface
-- ✅ Apply machine learning concepts in education
-- ✅ Help identify at-risk students early
-- ✅ Demonstrate practical ML application
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [Streamlit](https://streamlit.io/) - Amazing web framework
-- Powered by [scikit-learn](https://scikit-learn.org/) - ML library
-- Inspired by educational data science projects
-- Thanks to our instructors for guidance
-
----
-
-## 📞 Contact
-
-For questions, suggestions, or collaboration:
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/bhusareMayur/ML_Project_RollNo_43_44_45_/issues)
-- **GitHub**: [@bhusareMayur](https://github.com/bhusareMayur)
-
----
-
-## 📝 Requirements File
-
-Create a `requirements.txt` file with:
-
-```txt
-streamlit>=1.28.0
-pandas>=2.0.0
-scikit-learn>=1.3.0
-```
-
----
-
-<div align="center">
-
-### ⭐ If you found this project helpful, please give it a star!
-
-### 🎓 Built for Educational Purposes
-
-Made with ❤️ by ML Project Team (Roll No. 43, 44, 45)
-
-[⬆ Back to Top](#-student-exam-pass-predictor)
-
-</div>
