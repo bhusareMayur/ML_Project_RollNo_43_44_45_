@@ -9,7 +9,6 @@
 
 ### 🧠 Predict if a student will pass or fail based on study habits and performance metrics
 
-[Demo](#-screenshots) • [Features](#-features) • [Installation](#-installation--setup) • [Usage](#-usage)
 
 </div>
 
