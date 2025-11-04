@@ -26,9 +26,6 @@
 - [Usage](#-usage)
 - [Dataset](#-dataset)
 - [Model Performance](#-model-performance)
-- [Contributing](#-contributing)
-- [License](#-license)
-
 ---
 
 ## 🚀 Overview
