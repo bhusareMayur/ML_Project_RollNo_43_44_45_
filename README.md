@@ -27,17 +27,18 @@ The prediction is based on:
 
 ## 🧩 Project Structure  
 
+```bash
 student-exam-pass-prediction/
 │
-├── app.py # Streamlit web application
-├── train_model.py # Script for model training and saving
+├── app.py                  # Streamlit web application
+├── train_model.py          # Script for model training and saving
 ├── model/
-│ └── model.pkl # Trained logistic regression model
+│   └── model.pkl           # Trained logistic regression model
 ├── data/
-│ └── student_data.csv # Dataset for model training
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
+│   └── student_data.csv    # Dataset for model training
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+```
 
 ---
 
@@ -92,5 +93,9 @@ streamlit run app.py
 Then open the local URL shown (e.g., http://localhost:8501) in your browser.
 
 ##💡 Example Input
-<pre> | Study Hours | Attendance (%) | Previous Score | Prediction | | ------------ | -------------- | -------------- | ---------------- | | 6 | 85 | 70 | ✅ Likely to Pass | | 2 | 45 | 40 | ❌ Likely to Fail | </pre>
+| Study Hours | Attendance (%) | Previous Score | Prediction         |
+| ----------- | -------------- | -------------- | ------------------ |
+| 6           | 85             | 70             | ✅ Likely to Pass |
+| 2           | 45             | 40             | ❌ Likely to Fail |
+
 
